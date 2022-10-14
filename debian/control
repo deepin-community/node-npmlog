@@ -1,0 +1,33 @@
+Source: node-npmlog
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 12)
+ , node-are-we-there-yet <!nocheck>
+ , node-console-control-strings <!nocheck>
+ , node-gauge <!nocheck>
+ , node-set-blocking <!nocheck>
+ , node-tap <!nocheck>
+ , pkg-js-tools (>= 0.9.20~)
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-npmlog
+Vcs-Git: https://salsa.debian.org/js-team/node-npmlog.git
+Homepage: https://github.com/npm/npmlog
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-npmlog
+Architecture: all
+Depends: ${misc:Depends}
+ , node-are-we-there-yet
+ , node-console-control-strings
+ , node-gauge
+ , node-set-blocking
+ , nodejs
+Description: Logger with custom levels and colored output for Node.js
+ node-npmlog is a basic logger module used by npm.
+ .
+ npm is the package manager bundled with Node.js.
+ .
+ Node.js is an event-based server-side javascript engine.

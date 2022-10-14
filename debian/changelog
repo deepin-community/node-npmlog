@@ -1,0 +1,41 @@
+node-npmlog (4.1.2-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Use pkg-js-tools auto test & install
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 08 Mar 2020 17:22:20 +0100
+
+node-npmlog (4.1.2-1) unstable; urgency=medium
+
+  * New upstream version 4.1.2
+  * Change license to ISC
+  * Section javascript
+  * Priority optional
+  * Update homepage
+  * Standards-Version 4.1.4
+  * Move to salsa
+  * Update dependencies
+  * Add autopkgtests
+
+ -- Jérémy Lal <kapouer@melix.org>  Sat, 21 Apr 2018 00:58:02 +0200
+
+node-npmlog (0.0.4-1) unstable; urgency=low
+
+  * Upstream update.
+  * control:
+    + Standards-Version 3.9.4
+    + Canonicalize Vcs fields
+  * copyright: add Source and Upstream-Contact fields.
+
+ -- Jérémy Lal <kapouer@melix.org>  Wed, 21 Aug 2013 00:52:10 +0200
+
+node-npmlog (0.0.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #703703)
+
+ -- Jérémy Lal <kapouer@melix.org>  Fri, 22 Mar 2013 14:34:30 +0100
